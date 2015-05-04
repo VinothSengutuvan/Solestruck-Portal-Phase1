@@ -1,0 +1,232 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: proxima-nova;
+	font-family: arial;
+	
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.clear_both{ clear: both; }
+.fl{ float: left;}
+.fr{ float:right;}
+.wrapper{
+	width: 1024px;
+	margin: 0px auto;
+}
+header{
+	background-color: #000000;
+}
+
+.logo_icon{
+	background: url("../images/logo-one-letter.png") 0px 0px no-repeat;
+	padding: 15px 10px;
+	background-size: 19px;
+	margin: 30px 0px 0px 30px;
+	display: inline-block;
+}
+.right_nav li{
+	float: left;
+	padding: 30px 30px 30px 0px;
+}
+.right_nav li a{
+	color:#A6A6A6;
+	font-size: 16px;
+	font-weight: 800;
+}
+h6{
+	font-size: 45px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 800;
+	padding: 100px 0px;
+	margin: 0px;
+	background-color: #000000;
+}
+
+.tab_nav{
+	background-color: #1E1E1E;
+	padding: 0px;
+	margin: 0px;
+	height: 65px;
+	margin-top: -1px;
+}
+.tab_nav ul{
+	margin: 0px auto;
+	width: 780px;
+	padding: 0px;
+
+}
+.tab_nav ul li{
+	float: left;
+	font-size: 20px;
+	color: #A6A6A6;
+	padding: 23px 0px;
+	width: 195px;
+	text-align: center;
+	font-weight: 800;
+	cursor: pointer;
+}
+.tab_nav ul li.selected{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+table.inventory_table{
+	margin: 80px 0px 30px;
+}
+table tr:hover td{
+	background-color: #e6f9ff;
+}
+table tr th{
+	font-size: 13px;
+	font-weight: 800;
+	padding: 15px 0px;
+	border-bottom: 2px solid #cccccc;
+	position: relative;
+}
+.th_notify{
+	display:none;
+	position: absolute;
+	width: 240px;
+	padding: 20px;
+	background-color: #1E1E1E;
+	color: #A6A6A6;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	bottom: 40px;
+	left: -120px;
+}
+.th_notify p{
+	color: #A6A6A6;
+	font-size: 15px;
+	font-weight: normal;
+}
+.th_notify h5{
+	color: #ffffff;
+	font-size: 16px;
+	padding-bottom: 3px;
+}
+.shoe_filter{
+	cursor: pointer;
+}
+table tr th:hover div.th_notify{
+	display:block;
+}
+table tr td{
+	font-size: 15px;
+	padding: 15px 0px;
+	border-bottom: 1px solid #cccccc;
+}
+table tr td.shoe_img{
+	vertical-align: middle;
+}
+table tr td img{
+	width: 44px;
+	height: 33px;
+}
+table tr td span{ display: block; color: #cccccc;}
+
+table tr.enable{
+	background-color: #FAFAFA;
+}
+table tr.enable td{
+	color: #A6A6A6;
+}
+.pagination_holder{
+	border:1px solid #cccccc;
+}
+.pagination_holder li{
+	float: left;
+	padding: 12px 15px;
+	text-align: center;
+	border-right: 1px solid #cccccc;
+	cursor: pointer;
+}
+.pagination_holder li.selected{
+	color: #ffffff;
+	background-color: #000000;
+}
+.pagination_holder li.next{
+	border-right:0px !important;
+}
+.download_csv{
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 12px 18px;
+	border:0px;
+	cursor: pointer;
+
+}
+
+footer{ padding: 80px 0px 40px; }
+footer span{
+	color: #A6A6A6;
+	font-size: 15px;
+}
+footer a{
+	color: #000000;
+	font-size: 15px;
+	text-decoration: underline;
+	padding: 0px 0px 0px 15px;
+}
+.time_dropdown{
+	width: 140px;
+	border: 1px solid #cccccc;
+	padding: 14px 11px 7px 11px;
+	margin: 0px 20px;
+}
+/***form dropdown for common code start ***/
+.custome_dropdown_holder {
+	position: relative;
+	cursor: pointer;
+	height: 19px; 
+}
+.custome_dropdown_holder div {
+	position: absolute;
+	width: 100%;
+	text-align: left;
+	padding: 0px;
+	cursor: pointer;
+}
+.custome_dropdown_holder div p{
+	font-size: 15px;
+}
+
+.custome_dropdown_holder div i {
+	position: absolute;
+	right: 0px;
+	top: -2px;
+	font-size: 17px;
+}
+.custome_dropdown_holder select {
+	position: absolute;
+	height: 55px;
+	top: -26px;
+	left: 0px;
+	width: 100%;
+	font-size: 14px;
+	border: 0px;
+	outline: 0px;
+	opacity: 0;
+	-khtml-opacity: 0.0;
+	-moz-opacity: 0.0;
+	filter: alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	cursor: pointer;
+}
+/***form dropdown for common code end ***/
+
+@media only screen and (min-width : 1441px)   {
+	.wrapper{
+		width:1440px;
+		margin: 0px auto;
+	}
+}

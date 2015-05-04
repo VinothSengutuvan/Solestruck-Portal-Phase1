@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <link href="PAPERMAG_files/css.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8"> 
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal Inventory</title>
+
+    <script src="//use.typekit.net/avn5kiy.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/phase1.css">
+
+</head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <a href="javascript:void(0)" class="logo_icon"></a>
+                <nav class="right_nav fr">
+                    <ul>
+                        <li><a href="javascript:void(0)">Logout</a></li>
+                        <li><a href="javascript:void(0)">Help</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <article>
+                <h6>Acen studios</h6>
+                <nav class="tab_nav">
+                    <ul>
+                        <li class="selected">Inventory</li>
+                        <li>Transactions</li>
+                        <li>Returns</li>
+                        <li>Account</li>
+                    </ul>
+                    <div class="clear_both"></div>
+                </nav>
+
+                <div class="inventory_details">
+                    <table cellpading="0" cellspacing="0" width="100%" class="inventory_table">
+                        <tr>
+                            <th class="shoe_filter">Shoe
+                                <i class="icon-caret-down"></i>
+                            </th>
+                            <th></th>
+                            <th>Price</th>
+                            <th>On-Site
+                                <div class="th_notify">
+                                    <h5>On-Site</h5>
+                                    <p>Refers to the number of days this specific style/color item has been on the site.</p>
+                                </div>
+                            </th>
+                            <th>In-Stock
+                                <div class="th_notify">
+                                    <h5>In-Stock</h5>
+                                    <p>Refers to the number of items we have in our warehouse currently. This number doesn’t include T@H orders, but only what we have on hand.</p>
+                                </div>
+                            </th>
+                            <th>T@H's
+                                <div class="th_notify">
+                                    <h5>Try@Home Active</h5>
+                                    <p>Refers to items that are currently out of our inventory because a customer is trying it on at home.</p>
+                                </div>
+                            </th>
+                            <th>Rtrn.
+                                <div class="th_notify">
+                                    <h5>Returns</h5>
+                                    <p>This means the toal number of returns for this style/color, in all sizes. This column only shows purchase returns, not T@H returns.</p>
+                                </div>
+                            </th>
+                            <th>15d
+                                <div class="th_notify">
+                                    <h5>Sell-Through</h5>
+                                    <p>Here we are showing sell-through days for 15, 30, 60 & 90 days. This is simply the number of shoes sold up until that number of days on site.</p>
+                                </div>
+                            </th>
+                            <th>30d</th>
+                            <th>60d</th>
+                            <th>90d</th>
+                            <th>T@H Sold
+                                <div class="th_notify">
+                                    <h5>Try@Home Sold</h5>
+                                    <p>This means all items sold as a result of a customer trying them at home first and then making the purchase.</p>
+                                </div>
+                            </th>
+                            <th>Reg. sold
+                                <div class="th_notify">
+                                    <h5>Regular Sold</h5>
+                                    <p>This means all items purchased outright without trying at home first.</p>
+                                </div>
+                            </th>
+                            <th>Total Sold
+                                <div class="th_notify">
+                                    <h5>Total Sold</h5>
+                                    <p>This is the total number of items sold both in Try@Home and Regular purchases.</p>
+                                </div>
+                            </th>
+                            <th>Net Profit
+                                <div class="th_notify">
+                                    <h5>Net Profit</h5>
+                                    <p>This number is the net amount of money brought in by this particluar style/color.</p>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Chiara-(White)-010304.jpg"/></td>
+                            <td>Chiara<span>White</span></td>
+                            <td>$199.95</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$19,995.00</td>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Cleo-Tweed-(Orange-Sky-Blue-Spiral)-010304.jpg"/></td>
+                            <td>Cleo Tweed<span>Orange Sky Blue ...</span></td>
+                            <td>$159.96</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$15,996.00</td>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Jaycee-(Powder-Pink-Suede)-010304.jpg"/></td>
+                            <td>Feliks<span>Dirty Pink</span></td>
+                            <td>$199.95</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$19,995.00</td>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Kleate-(Light-Blue-Metallic)-010304.jpg"/></td>
+                            <td>Ilona<span>White</span></td>
+                            
+                            <td>$159.96</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$15,996.00</td>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Jaycee-(Powder-Pink-Suede)-010304.jpg"/></td>
+                            <td>Jaycee<span>Powder Pink Sue ...</span></td>
+                            
+                            <td>$199.95</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$19,995.00</td>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Kleate-(Silver-Metallic)-010304.jpg"/></td>
+                            <td>Kleate<span>Light Blue Metal ...</span></td>
+                            
+                            <td>$159.96</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$15,996.00</td>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Kleate-(Red-Metallic)-010304.jpg"/></td>
+                            <td>Kleate<span>Red Metallic</span></td>
+                            
+                            <td>$199.95</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$19,995.00</td>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Kleate-(Silver-Metallic)-010304.jpg"/></td>
+                            <td>Kleate<span>Silver Metallic</span></td>
+
+                            <td>$159.96</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$15,996.00</td>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Lenna-Grain-(Black)-010304.jpg"/></td>
+                            <td>Lenna Grain<span>Black</span></td>
+                            
+                            <td>$199.95</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$19,995.00</td>
+                        </tr>
+                        <tr>
+                            <td class="shoe_img"><img src="images/shoes/Acne-Studios-shoes-Milo-(Orange)-010304.jpg"/></td>
+                            <td>Milo<span>Orange</span></td>
+                            <td>$159.96</td>
+                            <td>10 days</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>25</td>
+                            <td>50</td>
+                            <td>75</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>50</td>
+                            <td>100</td>
+                            <td>$15,996.00</td>
+                        </tr>
+                    </table>
+                    <button class="download_csv">Download CSV</button>
+                    <ul class="pagination_holder fr">
+                        <li>Prev</li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li class="selected">3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>...</li>
+                        <li class="next">Next</li>
+                    </ul>
+                    <div class="fr time_dropdown">
+                        <div class="custome_dropdown_holder">
+                            <div>
+                                <p>10 At A Time</p>
+                                <i class="icon-caret-down"></i>
+                            </div>
+                            <select class="custom_select_value_act" name="state" id="state">
+                                <option value="">Select State</option>
+                                <option value="Alabama">Alabama</option>
+                                <option value="Alaska">Alaska</option>
+                            </select>
+                        </div><!-- custome_dropdown_holder -->
+                    </div>
+                    <div class="clear_both"></div>
+                </div><!-- inventory_details -->
+            </article>
+            <footer>
+                <span class="fl">Solestruck © 2015 All rights reserved</span>
+                <a href="#" class="fr">Privacy Policy</a>
+                <a href="#" class="fr">Terms</a>
+                <div class="clear_both"></div>
+            </footer>
+        </div>
+    </body>
+</html>
